@@ -1,13 +1,12 @@
 # Plan: fonts are the system's
 
 **Status:** drafted 2026-10-11. The pattern was taken the same day, with
-decisions 3 and 4, which came with it; the rest are recommended (§6). Step 1
-shipped the same day as system-online-sdk 0.2.0
-(`../system-online-sdk/feature-requests/system-fonts.md`), and step 2 is
-done here as the Font Viewer 0.2.0, its § 8 checks passed on the dev
-desktop. Step 3 waits on SystemOnline
-(`../system-online/feature-requests/font-viewer-app-file.md`), which
-`docs/asks.md` tracks. The ruling: _"the view
+decisions 3 and 4, which came with it; the rest are recommended (§6). Done
+2026-10-11, every step the same day: step 1 shipped as system-online-sdk
+0.2.0 (`system-fonts.md`), step 2 is the Font Viewer 0.2.0 here, its § 8
+checks passed on the dev desktop, and step 3 landed in SystemOnline
+(`font-viewer-app-file.md`). Both requests are deleted, and `docs/asks.md`
+keeps what they shipped. The ruling: _"the view
 app should not OWN the font strike. If a font strike is in the host system -
 the viewer app can be used to open and view it. But those fonts on the
 system are available for other apps to use as well … we need i think to be

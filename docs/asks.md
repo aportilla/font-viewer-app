@@ -11,27 +11,19 @@ here what it shipped, as each entry says, and strike the entry.
 
 ## Waiting
 
-### SystemOnline: `font-viewer-app-file.md`
-
-Step 3 of `docs/system-fonts-plan.md`: fonts are the system's, and the Font
-Viewer only views them. Both things it waited on are done: the SDK's
-release, 0.2.0, and the Font Viewer 0.2.0 built on it.
-
-Rewritten 2026-10-11 for system fonts. SystemOnline moves onto the release,
-gives its system its collection and a Fonts folder, moves existing desktops'
-suitcases into it, and builds the Font Viewer in from `apps/Font
-Viewer.png`. Its own copy goes; the collection stays there. Until then the
-desktop runs that copy, so a change made here reaches it only with that
-step.
-
-When it's done, here: nothing changes. Strike the entry.
+Nothing.
 
 ## Shipped
 
 - system-online-sdk: `system-fonts.md`, in 0.2.0, 2026-10-11. The Fonts
   folder, the shell's `font` kind, `opens`, `createShell({ fonts })` and
   `ctx.fonts`. Taken up here as the Font Viewer 0.2.0 (the plan's step 2).
-  The request stays in the SDK until SystemOnline has moved too.
+  Its request was deleted once SystemOnline had moved too.
+- SystemOnline: `font-viewer-app-file.md`, 2026-10-11, the plan's step 3.
+  SystemOnline moved onto system-online-sdk 0.2.0, serves its collection as
+  the system's fonts, files its suitcases in System Folder → Fonts, and
+  builds the Font Viewer 0.2.0 in from `apps/Font Viewer.png`; its own copy
+  left. Nothing changed here, and its request was deleted.
 
 ## Withdrawn
 
