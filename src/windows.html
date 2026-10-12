@@ -1,0 +1,30 @@
+<!-- Font Viewer window, copied for each open suitcase (windows.ts). -->
+<!-- The body: the sample line once per strike, a rule, then the chosen
+     strike's character rows. windows.ts writes each paragraph's strike as
+     font tokens. What doesn't change with the strike is the stacks' own
+     style, not a site's CSS: smoothing off through the token, which reaches
+     the paragraphs' text in their shadow roots, so every glyph shows true
+     pixels; and the character rows, one run each, breaking anywhere. The
+     inset is the stack's pad because a window body has none. The status
+     strip names the strike. -->
+<vf-window
+  data-window="font"
+  heading="untitled"
+  closable
+  movable
+  outline-drag
+  resizable
+  zoomable
+  scrollbars="vertical"
+  width="520"
+  height="340"
+>
+  <vf-stack fill-width pad="8 10 12" gap="12" class="font-specimen" style="--vf-font-smoothing: none">
+    <vf-stack fill-width gap="6" class="font-samples"></vf-stack>
+    <vf-separator fill-width></vf-separator>
+    <vf-stack fill-width class="font-charset" style="word-break: break-all"></vf-stack>
+  </vf-stack>
+  <vf-stack slot="status" direction="row" pad="0 8">
+    <vf-label face="body" class="font-status"></vf-label>
+  </vf-stack>
+</vf-window>
