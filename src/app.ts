@@ -6,7 +6,7 @@
 export const APP = {
   id: 'font-viewer',
   name: 'Font Viewer',
-  version: '0.2.0',
+  version: '0.3.0',
   author: 'Adam Portilla',
   description:
     "Opens font suitcases: a family's sample line in every strike, then every character of one, set in the bitmap strikes the system serves.",
